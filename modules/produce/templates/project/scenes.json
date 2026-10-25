@@ -1,0 +1,27 @@
+{
+  "title": "{{TITLE}}",
+  "fps": 30,
+  "language": "en",
+  "pad": {"lead": 0.25, "tail": 0.45},
+  "_schema": {
+    "id": "S01, S02... Split as S03a/S03b; never renumber (prompts, VO files and ledger entries key off ids).",
+    "kind": "title | statement | stat | list | quote | lowerThird | footage | image | endCard",
+    "vo_text": "Exactly what the voice says (real spelling; the brand lexicon handles pronunciation). Empty = no VO.",
+    "kicker/headline/body/stat/items/name/role": "On-screen copy. Keep headlines short: ~20 on-screen words per section at most.",
+    "media": "Project-relative path to a footage clip or still for footage/image/lowerThird scenes.",
+    "mediaStart": "Seconds into the source clip.",
+    "min_duration": "Floor for this scene (default 2.5 s).",
+    "duration": "Fixed length (overrides VO-driven length). Use for music-cut films.",
+    "target_vo_seconds": "VoiceStudio only: ask the TTS to fit the line into N seconds (--fit-duration).",
+    "maker": "remotion | hyperframes | ai-video | footage | stock (who makes the picture)",
+    "job": "The one thing this scene must do (orientation, comprehension, belief, recall, feeling or action)."
+  },
+  "music": {"src": "assets/music/bed.wav", "volume": 0.5, "duckTo": 0.3, "fadeInSeconds": 1.0, "fadeOutSeconds": 2.5},
+  "scenes": [
+    {"id": "S01", "kind": "title", "job": "hook", "kicker": "Introducing", "headline": "One clear promise.", "vo_text": "Buying your first home shouldn't feel like a second job."},
+    {"id": "S02", "kind": "statement", "job": "belief", "headline": "We do the legwork.", "body": "You make the decisions.", "vo_text": "We compare the lenders, chase the paperwork and keep you posted."},
+    {"id": "S03", "kind": "stat", "job": "belief", "stat": "3×", "headline": "faster to approval", "body": "Replace with an approved claim + source", "vo_text": "Most of our clients get to approval three times faster."},
+    {"id": "S04", "kind": "list", "job": "comprehension", "headline": "How it works", "items": ["Tell us what you need", "We find the right loan", "You get the keys"], "vo_text": "Tell us what you need. We find the right loan. You get the keys."},
+    {"id": "S05", "kind": "endCard", "job": "action", "min_duration": 3.0, "vo_text": "Homely. Home loans, minus the runaround."}
+  ]
+}

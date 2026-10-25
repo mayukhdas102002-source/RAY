@@ -1,0 +1,30 @@
+{
+  "_generated": "Placeholder. Run scripts/brand_tokens.py on brand/brand.json to overwrite this file.",
+  "name": "Brand",
+  "url": "brand.example",
+  "tagline": "One clear promise.",
+  "colors": {
+    "primary": "#FF6B3D",
+    "secondary": "#0F3A3C",
+    "accent": "#FFB36B",
+    "bg": "#0A1216",
+    "surface": "#10262E",
+    "fg": "#FFF1C9",
+    "muted": "#9FB3B5",
+    "line": "rgba(255,241,201,0.18)",
+    "captionBox": "rgba(10,18,22,0.82)",
+    "captionText": "#FFFFFF",
+    "captionHighlight": "#FFB36B"
+  },
+  "fonts": {
+    "heading": {"family": "Poppins", "weight": 700, "fallback": "Inter, 'Segoe UI', system-ui, sans-serif"},
+    "body": {"family": "Poppins", "weight": 500, "fallback": "Inter, 'Segoe UI', system-ui, sans-serif"},
+    "mono": {"family": "IBM Plex Mono", "weight": 500, "fallback": "Consolas, 'Courier New', monospace"}
+  },
+  "fontFiles": [],
+  "logo": {"light": null, "dark": null},
+  "radius": 22,
+  "motion": {"springDamping": 200, "entranceSeconds": 0.6, "stagger": 0.12, "exitFrames": 6},
+  "captions": {"enabled": true, "upper": true, "combineMs": 900, "position": "bottom", "box": true},
+  "endCard": {"cta": "Learn more", "url": "brand.example", "legal": ""}
+}

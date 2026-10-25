@@ -1,0 +1,118 @@
+{
+  "schema": "bvp.brand/1",
+  "_readme": "Single source of truth for every engine. Paths are relative to this file. Run: python scripts/brand_tokens.py brand/brand.json --project . to emit Remotion, HyperFrames, OpenMontage, Pireel, herk and ffmpeg tokens.",
+
+  "name": "Homely",
+  "legal_name": "Homely Ltd",
+  "url": "homely.co.nz",
+  "tagline": "Home loans, minus the runaround.",
+  "category": "Fintech · home lending · New Zealand",
+  "audience": "First-home buyers in Aotearoa, 25-40, time-poor, wary of banks",
+
+  "voice_and_tone": {
+    "personality": ["warm", "plain-spoken", "quietly confident", "Kiwi"],
+    "say": ["Short sentences.", "Talk to one person.", "Concrete over clever."],
+    "avoid": ["jargon (LVR, DTI) without a plain explanation", "hype words: revolutionary, game-changing, seamless", "financial advice or guaranteed outcomes"],
+    "spelling": "en-NZ"
+  },
+
+  "colors": {
+    "primary": "#FF6B3D",
+    "secondary": "#0F3A3C",
+    "accent": "#FFB36B",
+    "bg": "#0A1216",
+    "surface": "#10262E",
+    "fg": "#FFF1C9",
+    "muted": "#9FB3B5",
+    "line": "rgba(255,241,201,0.18)",
+    "success": "#7FD6A3",
+    "warning": "#FFD28A",
+    "light_bg": "#FFF8EC",
+    "light_fg": "#0A1216"
+  },
+
+  "typography": {
+    "heading": {"family": "Poppins", "weight": 700, "files": [{"file": "fonts/poppins-latin-700-normal.woff2", "weight": "700", "style": "normal"}], "fallback": "Inter, 'Segoe UI', system-ui, sans-serif"},
+    "body": {"family": "Poppins", "weight": 500, "files": [{"file": "fonts/poppins-latin-500-normal.woff2", "weight": "500", "style": "normal"}], "fallback": "Inter, 'Segoe UI', system-ui, sans-serif"},
+    "mono": {"family": "IBM Plex Mono", "weight": 500, "files": [{"file": "fonts/ibm-plex-mono-latin-500-normal.woff2", "weight": "500", "style": "normal"}], "fallback": "Consolas, 'Courier New', monospace"},
+    "tracking_heading": "-0.02em",
+    "case_kicker": "upper"
+  },
+
+  "logo": {
+    "light": "logo/logo-light.svg",
+    "dark": "logo/logo-dark.svg",
+    "icon": "logo/icon.svg",
+    "source_url": "https://homely.co.nz/brand",
+    "min_width_px": 240,
+    "clearspace": "0.5 × logo height on every side",
+    "never": ["recolour", "stretch or rotate", "add effects", "redraw, trace or generate with AI", "place on busy footage without a backing panel"]
+  },
+
+  "shape": {"radius_px": 22, "stroke_px": 2.5, "grain": 0.0},
+
+  "motion": {
+    "energy": "confident",
+    "spring_damping": 200,
+    "entrance_s": 0.6,
+    "stagger_s": 0.12,
+    "exit_frames": 6,
+    "css_ease": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "gsap_ease": "power3.out",
+    "gsap_ease_inout": "power2.inOut",
+    "transition": "fade",
+    "transition_s": 0.4,
+    "min_scene_hold_s": 2.5,
+    "fps": 30
+  },
+
+  "captions": {
+    "enabled": true,
+    "upper": true,
+    "words_vertical": 3,
+    "words_horizontal": 7,
+    "combine_ms": 900,
+    "position": "bottom",
+    "box": true,
+    "text_color": "#FFFFFF",
+    "highlight": "accent",
+    "box_color": "rgba(10,18,22,0.82)"
+  },
+
+  "audio": {
+    "lufs_target": -14,
+    "true_peak_db": -1.0,
+    "music_under_voice_db": 12,
+    "music_mood": "warm, hopeful, light acoustic + soft synth pads, 90-110 BPM, no vocals",
+    "sfx_style": "soft whoosh, damped tap, dry click. No lasers, plops or risers on every cut.",
+    "music_library": "music_library/"
+  },
+
+  "voice": {
+    "provider": "voicebox",
+    "profile": "Homely VO",
+    "engine": "qwen",
+    "model_size": "1.7B",
+    "seed": 4242,
+    "instruct": "warm, confident, unhurried New Zealand English, smiling",
+    "language": "en",
+    "lexicon": {"Aotearoa": "Ah-oh-teh-ah-roh-ah", "LVR": "L V R"},
+    "consent_on_file": true,
+    "disclose_synthetic": true
+  },
+
+  "end_card": {"cta": "Get started", "url": "homely.co.nz", "legal": "Lending criteria, terms and fees apply.", "hold_s": 2.5},
+
+  "imagery": {
+    "style": "Photoreal, natural motivated light, real Aotearoa homes and people, warm but honest colour, subtle 35mm grain.",
+    "image_prompt_prefix": "Photoreal, natural light, New Zealand, warm honest colour, 35mm film grain, ",
+    "avoid": ["stock-photo grins", "drawn text, signs or logos", "American suburbia cues", "luxury mansions"]
+  },
+
+  "claims": {
+    "policy": "Only use approved claims. Anything numeric needs a source line or approval note in DECISIONS.md. Flag financial-advice language for compliance.",
+    "approved": []
+  },
+
+  "platforms": ["instagram_reels", "tiktok", "youtube", "youtube_shorts", "linkedin", "meta_feed"]
+}

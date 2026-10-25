@@ -1,0 +1,33 @@
+{
+  "name": "brand-film",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Brand film starter for the master-brand-video-pipeline skill. Timeline, captions and brand tokens are data files; the components read them.",
+  "scripts": {
+    "dev": "remotion studio",
+    "studio": "remotion studio",
+    "compositions": "remotion compositions",
+    "check": "tsc",
+    "draft": "remotion render BrandFilm-16x9 renders/draft-16x9.mp4 --scale=0.5 --crf=28",
+    "render": "remotion render BrandFilm-16x9 renders/brandfilm-16x9.mp4",
+    "render:all": "node scripts/render-all.mjs",
+    "stills": "remotion still EndCard-16x9 renders/endcard-16x9.png && remotion still Thumbnail-16x9 renders/thumbnail-16x9.png",
+    "upgrade": "remotion upgrade"
+  },
+  "dependencies": {
+    "@remotion/captions": "4.0.537",
+    "@remotion/cli": "4.0.537",
+    "@remotion/fonts": "4.0.537",
+    "@remotion/media": "4.0.537",
+    "react": "19.2.3",
+    "react-dom": "19.2.3",
+    "remotion": "4.0.537"
+  },
+  "devDependencies": {
+    "@types/react": "19.2.7",
+    "typescript": "5.9.3"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

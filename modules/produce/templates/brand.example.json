@@ -1,0 +1,154 @@
+{
+  "schema": "bvp.brand/1",
+  "_readme": "Single source of truth for every engine. Paths are relative to this file. Neutral example brand (fictional). A real example lives in brand.homely.example.json. Run: python scripts/brand_tokens.py brand/brand.json --project . to emit Remotion, HyperFrames, OpenMontage, Pireel, herk and ffmpeg tokens.",
+  "name": "Northwind Goods",
+  "legal_name": "Northwind Goods Ltd",
+  "url": "northwind.example",
+  "tagline": "Everyday gear, built to last.",
+  "category": "Consumer products · direct-to-consumer",
+  "audience": "Practical buyers, 25-45, who research before they buy",
+  "voice_and_tone": {
+    "personality": [
+      "confident",
+      "practical",
+      "warm"
+    ],
+    "say": [
+      "Short sentences.",
+      "Talk to one person.",
+      "Concrete over clever."
+    ],
+    "avoid": [
+      "hype words: revolutionary, game-changing, seamless",
+      "claims without a source"
+    ],
+    "spelling": "en-US"
+  },
+  "colors": {
+    "primary": "#FF6B3D",
+    "secondary": "#0F3A3C",
+    "accent": "#FFB36B",
+    "bg": "#0A1216",
+    "surface": "#10262E",
+    "fg": "#FFF1C9",
+    "muted": "#9FB3B5",
+    "line": "rgba(255,241,201,0.18)",
+    "success": "#7FD6A3",
+    "warning": "#FFD28A",
+    "light_bg": "#FFF8EC",
+    "light_fg": "#0A1216"
+  },
+  "typography": {
+    "heading": {
+      "family": "Poppins",
+      "weight": 700,
+      "files": [],
+      "fallback": "Inter, 'Segoe UI', system-ui, sans-serif"
+    },
+    "body": {
+      "family": "Poppins",
+      "weight": 500,
+      "files": [],
+      "fallback": "Inter, 'Segoe UI', system-ui, sans-serif"
+    },
+    "mono": {
+      "family": "IBM Plex Mono",
+      "weight": 500,
+      "files": [],
+      "fallback": "Consolas, 'Courier New', monospace"
+    },
+    "tracking_heading": "-0.02em",
+    "case_kicker": "upper"
+  },
+  "logo": {
+    "light": null,
+    "dark": null,
+    "icon": null,
+    "source_url": "",
+    "min_width_px": 240,
+    "clearspace": "0.5 × logo height on every side",
+    "never": [
+      "recolour",
+      "stretch or rotate",
+      "add effects",
+      "redraw, trace or generate with AI",
+      "place on busy footage without a backing panel"
+    ]
+  },
+  "shape": {
+    "radius_px": 22,
+    "stroke_px": 2.5,
+    "grain": 0.0
+  },
+  "motion": {
+    "energy": "confident",
+    "spring_damping": 200,
+    "entrance_s": 0.6,
+    "stagger_s": 0.12,
+    "exit_frames": 6,
+    "css_ease": "cubic-bezier(0.16, 1, 0.3, 1)",
+    "gsap_ease": "power3.out",
+    "gsap_ease_inout": "power2.inOut",
+    "transition": "fade",
+    "transition_s": 0.4,
+    "min_scene_hold_s": 2.5,
+    "fps": 30
+  },
+  "captions": {
+    "enabled": true,
+    "upper": true,
+    "words_vertical": 3,
+    "words_horizontal": 7,
+    "combine_ms": 900,
+    "position": "bottom",
+    "box": true,
+    "text_color": "#FFFFFF",
+    "highlight": "accent",
+    "box_color": "rgba(10,18,22,0.82)"
+  },
+  "audio": {
+    "lufs_target": -14,
+    "true_peak_db": -1.0,
+    "music_under_voice_db": 12,
+    "music_mood": "warm, hopeful, light acoustic + soft synth pads, 90-110 BPM, no vocals",
+    "sfx_style": "soft whoosh, damped tap, dry click. No lasers, plops or risers on every cut.",
+    "music_library": "music_library/"
+  },
+  "voice": {
+    "provider": "voicebox",
+    "profile": "Northwind VO",
+    "engine": "qwen",
+    "model_size": "1.7B",
+    "seed": 4242,
+    "instruct": "warm, confident, medium pace",
+    "language": "en",
+    "lexicon": {},
+    "consent_on_file": true,
+    "disclose_synthetic": true
+  },
+  "end_card": {
+    "cta": "Shop now",
+    "url": "northwind.example",
+    "legal": "",
+    "hold_s": 2.5
+  },
+  "imagery": {
+    "style": "Photoreal, natural light, real homes and outdoors, honest colour, subtle 35mm grain.",
+    "image_prompt_prefix": "Photoreal, natural light, honest colour, 35mm film grain, ",
+    "avoid": [
+      "stock-photo grins",
+      "drawn text, signs or logos"
+    ]
+  },
+  "claims": {
+    "policy": "Only use approved claims. Anything numeric needs a source line or approval note in DECISIONS.md.",
+    "approved": []
+  },
+  "platforms": [
+    "instagram_reels",
+    "tiktok",
+    "youtube",
+    "youtube_shorts",
+    "meta_feed"
+  ]
+}

@@ -1,0 +1,266 @@
+{
+ "title": "Going Up",
+ "runtime": 54.5,
+ "shots": [
+  {
+   "id": "S01",
+   "t": [
+    0,
+    3.5
+   ],
+   "act": "The appointment",
+   "maker": "AI",
+   "model": "Wan 3.0",
+   "name": "The lobby",
+   "frame": "Wide, 35mm, eye level. A glass-and-stone office lobby in Auckland's CBD, 8:52 am. Commuters with coffees cross the frame. Aroha and Josh walk in, a little overdressed. Josh carries a fat ring-binder labelled HOME LOAN, bristling with sticky notes.",
+   "sound": "Lobby hum, heels on stone, a distant coffee machine.",
+   "key": "Photoreal cinematic still, wide 35mm lens at eye level, modern glass and stone office tower lobby in Auckland CBD at 8:50am, soft morning light through tall windows, commuters with takeaway coffees crossing the frame slightly motion-blurred, a Māori woman about 31 [AROHA] and a Pākehā man about 33 [JOSH] walking toward camera slightly overdressed and nervous, he carries a thick ring-binder stuffed with papers and sticky notes. Natural colour, shallow depth of field, Kodak Vision3 film look, fine grain.",
+   "motion": "Static camera. Commuters cross in the foreground; the couple walk toward camera and slightly past it, toward the lifts. Natural walking pace, no slow motion. 3.5 seconds."
+  },
+  {
+   "id": "S02",
+   "t": [
+    3.5,
+    6.0
+   ],
+   "act": "The appointment",
+   "maker": "AI + Remotion",
+   "model": "Minimax H3 plate · Remotion screen",
+   "name": "Level 24",
+   "frame": "Insert. The lobby's digital directory screen: LEVEL 24 · HOME LENDING · 9:00 AM · A. NGATA & J. REID. Josh's finger taps it twice, nervously.",
+   "sound": "A small nervous exhale.",
+   "remotion": "SCR-Directory, corner-pinned onto the blank screen in the plate.",
+   "key": "Photoreal close-up of a sleek wall-mounted digital directory screen in an office lobby, the screen is plain flat mid-grey with no text, a man's index finger entering frame from the right about to tap it, shallow depth of field, soft lobby light, film grain.",
+   "motion": "The finger taps the blank screen twice. Almost static camera, gentle handheld breathing. 2.5 seconds."
+  },
+  {
+   "id": "S03",
+   "t": [
+    6.0,
+    9.0
+   ],
+   "act": "The appointment",
+   "maker": "AI",
+   "model": "Wan 3.0",
+   "name": "Going up",
+   "frame": "Inside the lift, looking out as the brushed-steel doors slide shut on the lobby. The couple stand side by side, reflected in the doors. The floor display above reads 1.",
+   "sound": "The doors whisper shut. The lift voice, calm and warm: “Going up.”",
+   "remotion": "LED display: 1.",
+   "key": "[LIFT SET] Photoreal, camera inside a modern office lift at chest height facing the brushed-steel doors as they close on a bright lobby, [AROHA] and [JOSH] standing side by side facing the doors, he holds the thick ring-binder, their reflections soft in the steel, the floor display panel above the doors is black and blank. 35mm, natural light, film grain.",
+   "motion": "The lift doors slide closed from both sides. The couple exhale and settle. Static camera. 3 seconds."
+  },
+  {
+   "id": "S04",
+   "t": [
+    9.0,
+    13.0
+   ],
+   "act": "Up the building",
+   "maker": "AI + Remotion",
+   "model": "Wan 3.0 plate · Remotion screen",
+   "point": 1,
+   "name": "Connect",
+   "frame": "Over Aroha's shoulder onto her phone. She opens Homely, taps Connect bank, and the documents in Josh's binder are no longer needed: statements, payslips and ID verify themselves. Her borrower profile builds in real time, with income, deposit and a clear breakdown of their spending.",
+   "sound": "Soft UI ticks. The lift hums.",
+   "remotion": "SCR-Profile (vertical), corner-pinned onto the phone.",
+   "key": "[LIFT SET] Photoreal over-the-shoulder close shot of [AROHA] holding a modern smartphone in the lift, the phone screen is plain white and blank, her thumb over the screen, the brushed-steel lift wall soft behind, warm natural skin tones, 50mm, shallow depth of field, film grain.",
+   "motion": "She scrolls and taps the blank white phone screen with her thumb; the phone stays steady and flat to camera for easy screen replacement. Subtle lift movement. 4 seconds."
+  },
+  {
+   "id": "S05",
+   "t": [
+    13.0,
+    15.5
+   ],
+   "act": "Up the building",
+   "maker": "AI",
+   "model": "Kling 3.0",
+   "name": "Uber Eats",
+   "frame": "Two-shot. Josh leans in to read her screen, eyebrows up.",
+   "sound": "JOSH (quietly): “We spend how much on Uber Eats?”",
+   "key": "[LIFT SET] Photoreal medium two-shot of [JOSH] leaning in to read [AROHA]'s phone in the lift, his eyebrows raised in mock horror, her trying not to laugh, soft warm light from the lift ceiling, 40mm, film grain, natural.",
+   "motion": "He leans in, reads, raises his eyebrows; she bites back a laugh. Natural, understated performance. 2.5 seconds."
+  },
+  {
+   "id": "S06",
+   "t": [
+    15.5,
+    18.0
+   ],
+   "act": "Up the building",
+   "maker": "AI",
+   "model": "Minimax H3",
+   "point": 2,
+   "name": "Level five",
+   "frame": "Ding. The display flicks to 5. Both look up at the ceiling speaker.",
+   "sound": "LIFT VOICE: “Level five. You're pre-approved with nine lenders.”",
+   "remotion": "LED display: 5. Optional phone glance: SCR-Eligible.",
+   "key": "[LIFT SET] Photoreal medium shot from slightly below of [AROHA] and [JOSH] in the lift, both glancing up toward the ceiling speaker with a puzzled half-smile, floor display above them blank black, 35mm, soft overhead light, film grain.",
+   "motion": "Both look up toward the ceiling at the same moment, then at each other. Small, real reactions. 2.5 seconds."
+  },
+  {
+   "id": "S07",
+   "t": [
+    18.0,
+    22.0
+   ],
+   "act": "Up the building",
+   "maker": "AI",
+   "model": "Kling 3.0",
+   "point": 3,
+   "name": "Ask the lift",
+   "frame": "Josh, testing it, speaks to the ceiling. The lift answers. Aroha grins at him: it's working.",
+   "sound": "JOSH: “…Can we afford Grey Lynn?” LIFT VOICE: “You can. Fix for two years and you'll save thirty-eight thousand.”",
+   "note": "The lift voice is Homely. The conversational assistant and the financial adviser are shown as one voice. Keep Josh's line mostly off-mouth (turned toward the ceiling) so no lip-sync is needed.",
+   "key": "[LIFT SET] Photoreal medium close-up of [JOSH] tilting his head up toward the lift ceiling, sceptical half-smile, [AROHA] beside him in soft focus grinning, 50mm, warm overhead light, film grain.",
+   "motion": "He looks up and speaks toward the ceiling, then turns to her surprised as the answer comes; she nods, grinning. Static camera. 4 seconds.",
+   "point2": 4
+  },
+  {
+   "id": "S08",
+   "t": [
+    22.0,
+    25.0
+   ],
+   "act": "Up the building",
+   "maker": "AI",
+   "model": "Kling 3.0",
+   "point": 5,
+   "name": "Level nine",
+   "frame": "Ding, 9. The doors open on a bank floor and a loan officer steps in reading a tablet. She looks up and smiles: she already knows them.",
+   "sound": "LENDER 1: “Aroha? Josh? Already reviewing your file.”",
+   "remotion": "LED display: 9.",
+   "key": "[LIFT SET] Photoreal, lift doors open onto a bright bank office floor, a professional woman in her 40s in a navy blazer with an unbranded lanyard stepping into the lift reading a tablet, [AROHA] and [JOSH] in the foreground left, 35mm, film grain.",
+   "motion": "The doors slide open; the loan officer steps in reading her tablet, looks up and smiles warmly at the couple. The doors begin to close. 3 seconds."
+  },
+  {
+   "id": "S09",
+   "t": [
+    25.0,
+    27.0
+   ],
+   "act": "Up the building",
+   "maker": "AI + Remotion",
+   "model": "Minimax H3 plate · Remotion screen",
+   "point": 5,
+   "name": "The ticket",
+   "frame": "Insert over the lender's shoulder. Her tablet shows the bank's CRM with a Homely loan ticket: verified through Open Finance, documents complete, ready for review.",
+   "remotion": "SCR-Ticket (landscape), corner-pinned onto the tablet.",
+   "key": "Photoreal over-the-shoulder close shot of a woman in a navy blazer holding a tablet in landscape in a lift, tablet screen plain white and blank, shallow depth of field, soft light, film grain.",
+   "motion": "She holds the tablet steady and scrolls with one finger on the blank screen. 2 seconds."
+  },
+  {
+   "id": "S10",
+   "t": [
+    27.0,
+    30.0
+   ],
+   "act": "Up the building",
+   "maker": "AI",
+   "model": "Kling 3.0",
+   "point": 2,
+   "name": "Level eleven",
+   "frame": "Ding, 11. A second lender, a man with a coffee and the same tablet, steps in beside the first. They exchange a polite, competitive glance. The couple, squeezed at the back, love it.",
+   "sound": "LENDER 2: “We'll beat that rate.” LENDER 1: (a tight smile)",
+   "remotion": "LED display: 11.",
+   "key": "[LIFT SET] Photoreal medium-wide inside the lift: two bank professionals in business attire, a woman with a tablet and a man with a coffee and tablet, standing shoulder to shoulder facing the doors and exchanging a polite competitive glance, [AROHA] and [JOSH] at the back of the lift delighted, 28mm, film grain.",
+   "motion": "The man steps in and turns beside the woman; they share a polite rivalrous look; the couple behind exchange a delighted glance. 3 seconds."
+  },
+  {
+   "id": "S11",
+   "t": [
+    30.0,
+    38.0
+   ],
+   "act": "The ride",
+   "maker": "AI",
+   "model": "Seedance 2.5 · hero 1",
+   "point": 6,
+   "name": "A day in a lift",
+   "frame": "The wow. A wide from the back corner of the glass-backed lift, with Auckland and the Waitematā filling the glass. The floors race 12 to 23 and a whole day passes outside: morning to noon, a sunset over the harbour, city lights, then dawn. Commuters and the lenders step off in a blur. Aroha and Josh stand still and hold hands.",
+   "sound": "Music enters: a warm build. The ding softens on every floor.",
+   "remotion": "LED display racing 12 → 23.",
+   "key": "[LIFT SET] Photoreal wide shot from the back corner of a glass-walled panoramic lift high in an Auckland office tower, through the glass the Waitematā Harbour and Sky Tower in golden sunset light, [AROHA] and [JOSH] standing still holding hands looking out, a few blurred passengers stepping out, 24mm, film grain.",
+   "motion": "Time-lapse outside only: through the glass the sky and city pass from morning to sunset to night with city lights to dawn, while inside the couple stay almost still holding hands and passengers step in and out as motion-blurred figures. Camera static. Photoreal, no warping. 8 seconds."
+  },
+  {
+   "id": "S12",
+   "t": [
+    38.0,
+    40.5
+   ],
+   "act": "The ride",
+   "maker": "AI + Remotion",
+   "model": "Minimax H3 plate · Remotion screen",
+   "point": 6,
+   "name": "Level 24",
+   "frame": "Ding. 24. Her phone lights up in her hand: Approved.",
+   "sound": "LIFT VOICE: “Level twenty-four. You're approved.”",
+   "remotion": "LED display: 24. SCR-Approved on the phone.",
+   "key": "Photoreal close-up of a woman's hand holding a smartphone low at her side in a lift, the phone screen plain white and blank, early dawn light from the side, film grain.",
+   "motion": "She lifts the phone into frame and holds it steady as she looks down at it. 2.5 seconds."
+  },
+  {
+   "id": "S13",
+   "t": [
+    40.5,
+    42.5
+   ],
+   "act": "The ride",
+   "maker": "AI",
+   "model": "Kling 3.0",
+   "name": "The look",
+   "frame": "Close two-shot. They look at each other. Josh lowers the unopened binder.",
+   "sound": "Silence for a moment.",
+   "key": "[LIFT SET] Photoreal close two-shot of [AROHA] and [JOSH] looking at each other in quiet disbelief, first smile forming, dawn light on their faces through the lift glass, 50mm, film grain.",
+   "motion": "They turn to each other; a slow smile spreads. He lowers the binder. 2 seconds."
+  },
+  {
+   "id": "S14",
+   "t": [
+    42.5,
+    47.0
+   ],
+   "act": "Doors opening",
+   "maker": "AI",
+   "model": "Seedance 2.5 · hero 2",
+   "name": "Doors opening",
+   "frame": "The second wow. From behind the couple, the steel doors part. It isn't an office: it's sunlight, a front path, a pōhutukawa and a weatherboard villa. They step out onto the grass. Reverse angle: the lift is gone, and there's only their front gate.",
+   "sound": "LIFT VOICE: “Doors opening. Welcome home.” Birdsong floods in. Music lifts.",
+   "key_start": "[LIFT SET] Photoreal, camera behind [AROHA] and [JOSH] inside the lift facing the closed brushed-steel doors, dawn light from the glass wall behind camera, 28mm, film grain.",
+   "key": "Photoreal, same camera position: the lift doors are open and beyond them is bright morning sunlight on a small front lawn and path leading to a white weatherboard Auckland villa with a pōhutukawa tree, [AROHA] and [JOSH] silhouetted in the doorway stepping out, 28mm, film grain.",
+   "motion": "The steel doors slide open to reveal bright sunlight and a front garden; the couple step out onto the grass. Keep the lift interior rigid, no warping; sunlight spills in. 4.5 seconds."
+  },
+  {
+   "id": "S15",
+   "t": [
+    47.0,
+    50.5
+   ],
+   "act": "Doors opening",
+   "maker": "AI + Remotion",
+   "model": "Kling 3.0 plate · Remotion screen",
+   "point": 7,
+   "point2": 8,
+   "name": "Moved in",
+   "frame": "Two movers carry a new sofa up the path past them. Aroha's phone pings twice: 10% off furniture through the Homely marketplace, and a $2,500 cashback reward. Josh drops onto the sofa right there on the lawn.",
+   "sound": "JOSH (to the sky): “The lift paid for the couch.”",
+   "remotion": "SCR-Market: marketplace card, then the cashback toast.",
+   "key": "Photoreal wide front-garden shot of a white Auckland villa on a sunny morning, two movers carrying a new sage-green sofa up the path, [AROHA] holding her phone smiling, [JOSH] about to drop onto the sofa as it's set on the lawn, pōhutukawa, 35mm, film grain.",
+   "motion": "Movers set the sofa down on the lawn; he flops onto it laughing; she glances at her phone and grins. Natural daylight. 3.5 seconds."
+  },
+  {
+   "id": "S16",
+   "t": [
+    50.5,
+    54.5
+   ],
+   "act": "End",
+   "maker": "Remotion",
+   "model": "Remotion · EndCard",
+   "name": "End card",
+   "frame": "Homely orange. “Approved before the doors open.” The Homely wordmark and “Going up.” A small line: The future of home lending · 2027 · Concept film.",
+   "sound": "Two-note Homely chime to finish."
+  }
+ ]
+}

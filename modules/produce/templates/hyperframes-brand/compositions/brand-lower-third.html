@@ -1,0 +1,37 @@
+<template>
+  <!--
+    Brand lower third: a reusable HyperFrames sub-composition (atelier example).
+    Mount it from index.html:
+      <div id="lt-founder" data-composition-id="lt-founder" data-composition-src="compositions/brand-lower-third.html"
+           data-start="4.2" data-duration="5" data-width="1920" data-height="1080" data-track-index="8"
+           data-variable-values='{"name":"Aroha Ngata","role":"Founder, Homely"}'></div>
+    Rules this file follows: everything inside <template>; host id = inner root id = __timelines key;
+    ids prefixed with the composition id; one paused timeline; entrance only (the host clip ends it);
+    colours and fonts from brand.css variables (linked by the parent index.html).
+  -->
+  <div id="lt-founder" data-composition-id="lt-founder" data-width="1920" data-height="1080" data-duration="5">
+    <style>
+      #lt-founder { position: absolute; inset: 0; }
+      #lt-founder-card {
+        position: absolute; left: 134px; bottom: 120px;
+        background: var(--color-caption-box); border-left: 10px solid var(--color-primary);
+        border-radius: 12px; padding: 22px 34px;
+      }
+      #lt-founder-name { font-family: var(--font-heading); font-weight: var(--font-heading-weight); font-size: 48px; color: var(--color-fg); }
+      #lt-founder-role { font-family: var(--font-body); font-size: 32px; color: var(--color-muted); margin-top: 6px; }
+    </style>
+    <div id="lt-founder-card">
+      <div id="lt-founder-name" data-var-text="name">Name Surname</div>
+      <div id="lt-founder-role" data-var-text="role">Role, Company</div>
+    </div>
+    <script>
+      (function () {
+        const tl = gsap.timeline({ paused: true });
+        tl.fromTo("#lt-founder-card", { x: -40, opacity: 0 }, { x: 0, opacity: 1, duration: 0.6, ease: "power3.out" }, 0.2);
+        tl.fromTo("#lt-founder-role", { opacity: 0 }, { opacity: 1, duration: 0.4, ease: "power2.out" }, 0.45);
+        tl.to({}, { duration: 5 }, 0);
+        window.__timelines["lt-founder"] = tl;
+      })();
+    </script>
+  </div>
+</template>

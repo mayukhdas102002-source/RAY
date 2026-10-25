@@ -1,0 +1,4 @@
+[
+  {"t": 3.0, "file": "../assets/sfx/soft-whoosh.wav", "gain_db": -10, "_why": "S02 cut: only on a visible move"},
+  {"t": 6.6, "file": "../assets/sfx/damped-tap.wav", "gain_db": -8, "_why": "stat lands; align to the audible peak, not the file start"}
+]

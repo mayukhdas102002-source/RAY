@@ -1,0 +1,72 @@
+{
+  "schema": "bvp.brand/1",
+  "_readme": "Organisation kit (nonprofit, school, council, association, public body). Same schema as a company kit, with accessibility and approvals defaults. Paths are relative to this file.",
+
+  "name": "Riverside Community Trust",
+  "legal_name": "Riverside Community Trust (registered charity)",
+  "url": "riversidetrust.example.org",
+  "tagline": "Stronger neighbourhoods, together.",
+  "category": "Nonprofit · community development",
+  "audience": "Local residents, volunteers, donors and partner organisations",
+
+  "voice_and_tone": {
+    "personality": ["warm", "plain-spoken", "hopeful", "inclusive"],
+    "say": ["Plain language (reading age 12).", "People first: their words, their dignity.", "Clear asks with concrete outcomes."],
+    "avoid": ["pity framing", "jargon and acronyms", "unsourced impact numbers"],
+    "spelling": "en-GB"
+  },
+
+  "colors": {
+    "primary": "#0B7A75",
+    "secondary": "#14365D",
+    "accent": "#F2A541",
+    "bg": "#FFFFFF",
+    "surface": "#F2F6F7",
+    "fg": "#14212B",
+    "muted": "#4A5A66",
+    "line": "rgba(20,33,43,0.14)",
+    "light_bg": "#FFFFFF",
+    "light_fg": "#14212B"
+  },
+
+  "typography": {
+    "heading": {"family": "Montserrat", "weight": 700, "files": [], "fallback": "Arial, sans-serif"},
+    "body": {"family": "Open Sans", "weight": 500, "files": [], "fallback": "Arial, sans-serif"},
+    "mono": {"family": "IBM Plex Mono", "weight": 500, "files": [], "fallback": "Consolas, monospace"},
+    "tracking_heading": "-0.01em"
+  },
+
+  "logo": {"light": null, "dark": null, "icon": null, "source_url": "", "min_width_px": 240,
+           "clearspace": "1 × height of the icon", "never": ["recolour", "stretch", "generate or redraw with AI", "place on busy footage without a panel"]},
+
+  "shape": {"radius_px": 12, "stroke_px": 2, "grain": 0.0},
+
+  "motion": {"energy": "calm", "spring_damping": 200, "entrance_s": 0.7, "stagger_s": 0.15, "exit_frames": 8,
+             "css_ease": "cubic-bezier(0.25, 1, 0.5, 1)", "gsap_ease": "power2.out", "gsap_ease_inout": "power1.inOut",
+             "transition": "fade", "transition_s": 0.5, "min_scene_hold_s": 3.0, "fps": 25},
+
+  "captions": {"enabled": true, "upper": false, "words_vertical": 4, "words_horizontal": 8, "combine_ms": 1200,
+               "position": "bottom", "box": true, "text_color": "#FFFFFF", "highlight": "accent", "box_color": "rgba(20,33,43,0.88)"},
+
+  "audio": {"lufs_target": -14, "true_peak_db": -1.0, "music_under_voice_db": 14,
+            "music_mood": "gentle piano and strings, hopeful, 70-90 BPM", "sfx_style": "minimal; natural ambience over effects",
+            "music_library": "music_library/"},
+
+  "voice": {"provider": "voicestudio", "profile": "", "engine": "voxcpm2", "seed": 2024, "instruct": "", "language": "en",
+            "lexicon": {}, "consent_on_file": false, "disclose_synthetic": true,
+            "_note": "Prefer real voices from the community (with consent). Synthetic narration is disclosed."},
+
+  "end_card": {"cta": "Volunteer or donate", "url": "riversidetrust.example.org", "legal": "Registered charity no. 0000000", "hold_s": 3.5},
+
+  "accessibility": {"captions_required": true, "audio_description": "on request", "languages": ["en"], "sign_language_inset": false,
+                    "min_text_px_at_1080": 44, "no_flashing": true},
+
+  "approvals": {"chain": ["Comms lead", "Programme lead", "Safeguarding (for any minors or vulnerable people)"], "consent_forms": "brand/consent/"},
+
+  "imagery": {"style": "Real people in real places, natural light, documentary framing", "image_prompt_prefix": "",
+              "avoid": ["staged stock imagery", "identifiable children without guardian consent", "AI-generated beneficiaries presented as real"]},
+
+  "claims": {"policy": "Impact numbers need a source and a date. Donation examples must reflect real costs.", "approved": []},
+
+  "platforms": ["youtube", "facebook", "instagram_reels", "linkedin", "website"]
+}

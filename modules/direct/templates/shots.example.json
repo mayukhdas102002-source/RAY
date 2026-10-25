@@ -1,0 +1,69 @@
+{
+ "title": "<Film title>",
+ "runtime": 30,
+ "_schema": {
+  "id": "S01, S02… (split as S05a/S05b, never renumber)",
+  "t": "[start, end] in seconds; ends must chain and sum to runtime",
+  "act": "act/section name",
+  "maker": "AI | AI + Remotion | Remotion | Higgsfield effect",
+  "model": "Higgsfield model or 'Remotion · <composition>'",
+  "point": "feature/message number this shot carries (optional); point2 for a second",
+  "name": "short shot name",
+  "frame": "what we see, plain language (1–2 sentences)",
+  "sound": "dialogue in CAPS NAME: \"line\" form + SFX/music notes",
+  "remotion": "UI/text layer for this shot (optional)",
+  "key_start": "image prompt for the START frame (transformations only)",
+  "key": "image prompt for the keyframe (or END frame when key_start exists)",
+  "motion": "video prompt: one move, real speed, what stays rigid, duration, final state",
+  "note": "production note (optional)"
+ },
+ "shots": [
+  {
+   "id": "S01",
+   "t": [
+    0,
+    3.5
+   ],
+   "act": "The appointment",
+   "maker": "AI",
+   "model": "Wan 3.0",
+   "name": "The lobby",
+   "frame": "Wide, 35mm, eye level. A glass-and-stone office lobby in Auckland's CBD, 8:52 am. Commuters with coffees cross the frame. Aroha and Josh walk in, a little overdressed. Josh carries a fat ring-binder labelled HOME LOAN, bristling with sticky notes.",
+   "sound": "Lobby hum, heels on stone, a distant coffee machine.",
+   "key": "Photoreal cinematic still, wide 35mm lens at eye level, modern glass and stone office tower lobby in Auckland CBD at 8:50am, soft morning light through tall windows, commuters with takeaway coffees crossing the frame slightly motion-blurred, a Māori woman about 31 [AROHA] and a Pākehā man about 33 [JOSH] walking toward camera slightly overdressed and nervous, he carries a thick ring-binder stuffed with papers and sticky notes. Natural colour, shallow depth of field, Kodak Vision3 film look, fine grain.",
+   "motion": "Static camera. Commuters cross in the foreground; the couple walk toward camera and slightly past it, toward the lifts. Natural walking pace, no slow motion. 3.5 seconds."
+  },
+  {
+   "id": "S02",
+   "t": [
+    3.5,
+    6.0
+   ],
+   "act": "The appointment",
+   "maker": "AI + Remotion",
+   "model": "Minimax H3 plate · Remotion screen",
+   "name": "Level 24",
+   "frame": "Insert. The lobby's digital directory screen: LEVEL 24 · HOME LENDING · 9:00 AM · A. NGATA & J. REID. Josh's finger taps it twice, nervously.",
+   "sound": "A small nervous exhale.",
+   "remotion": "SCR-Directory, corner-pinned onto the blank screen in the plate.",
+   "key": "Photoreal close-up of a sleek wall-mounted digital directory screen in an office lobby, the screen is plain flat mid-grey with no text, a man's index finger entering frame from the right about to tap it, shallow depth of field, soft lobby light, film grain.",
+   "motion": "The finger taps the blank screen twice. Almost static camera, gentle handheld breathing. 2.5 seconds."
+  },
+  {
+   "id": "S03",
+   "t": [
+    6.0,
+    9.0
+   ],
+   "act": "The appointment",
+   "maker": "AI",
+   "model": "Wan 3.0",
+   "name": "Going up",
+   "frame": "Inside the lift, looking out as the brushed-steel doors slide shut on the lobby. The couple stand side by side, reflected in the doors. The floor display above reads 1.",
+   "sound": "The doors whisper shut. The lift voice, calm and warm: “Going up.”",
+   "remotion": "LED display: 1.",
+   "key": "[LIFT SET] Photoreal, camera inside a modern office lift at chest height facing the brushed-steel doors as they close on a bright lobby, [AROHA] and [JOSH] standing side by side facing the doors, he holds the thick ring-binder, their reflections soft in the steel, the floor display panel above the doors is black and blank. 35mm, natural light, film grain.",
+   "motion": "The lift doors slide closed from both sides. The couple exhale and settle. Static camera. 3 seconds."
+  }
+ ]
+}

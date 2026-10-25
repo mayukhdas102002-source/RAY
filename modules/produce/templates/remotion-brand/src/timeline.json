@@ -1,0 +1,13 @@
+{
+  "_generated": "Placeholder demo. scripts/timeline_from_vo.py overwrites this from the project's scenes.json and the measured VO durations.",
+  "title": "Brand film demo",
+  "fps": 30,
+  "music": null,
+  "scenes": [
+    {"id": "S01", "kind": "title", "start": 0, "duration": 3, "kicker": "Introducing", "headline": "One clear promise.", "vo": null},
+    {"id": "S02", "kind": "statement", "start": 3, "duration": 3.5, "headline": "Show the moment, not the feature list.", "body": "Every scene has one job.", "vo": null},
+    {"id": "S03", "kind": "stat", "start": 6.5, "duration": 3, "stat": "3×", "headline": "faster to approval", "body": "Source: replace with a real, approved claim", "vo": null},
+    {"id": "S04", "kind": "list", "start": 9.5, "duration": 4, "headline": "How it works", "items": ["Tell us what you need", "We do the legwork", "You get the keys"], "vo": null},
+    {"id": "S05", "kind": "endCard", "start": 13.5, "duration": 3.5, "vo": null}
+  ]
+}

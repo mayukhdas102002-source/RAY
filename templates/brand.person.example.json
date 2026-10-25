@@ -1,0 +1,86 @@
+{
+  "schema": "bvp.brand/1",
+  "_readme": "Personal brand kit (creator, founder, consultant, artist). Same schema as a company kit. Paths are relative to this file. Replace every value; keep what you don't need minimal.",
+
+  "name": "Alex Rivera",
+  "legal_name": "",
+  "url": "alexrivera.example",
+  "tagline": "Design systems, explained in 60 seconds.",
+  "category": "Personal brand · design educator",
+  "audience": "Product designers and front-end developers, 22-40, learning on their phones",
+
+  "voice_and_tone": {
+    "personality": ["curious", "direct", "friendly", "a bit nerdy"],
+    "say": ["First person. Talk to one viewer.", "Show the example before the theory.", "One idea per video."],
+    "avoid": ["hype words", "inside jokes without context", "jargon without a one-line explanation"],
+    "spelling": "en-US"
+  },
+
+  "colors": {
+    "primary": "#8A6DFF",
+    "secondary": "#1B1530",
+    "accent": "#FFD166",
+    "bg": "#0F0C1A",
+    "surface": "#1B1530",
+    "fg": "#F5F3FF",
+    "muted": "#A9A3C7",
+    "line": "rgba(245,243,255,0.16)",
+    "light_bg": "#FAF9FF",
+    "light_fg": "#0F0C1A"
+  },
+
+  "typography": {
+    "heading": {"family": "Inter", "weight": 800, "files": [], "fallback": "'Segoe UI', system-ui, sans-serif"},
+    "body": {"family": "Inter", "weight": 500, "files": [], "fallback": "'Segoe UI', system-ui, sans-serif"},
+    "mono": {"family": "JetBrains Mono", "weight": 500, "files": [], "fallback": "Consolas, monospace"},
+    "tracking_heading": "-0.02em"
+  },
+
+  "logo": {
+    "light": null,
+    "dark": null,
+    "icon": null,
+    "source_url": "",
+    "min_width_px": 200,
+    "clearspace": "0.5 × height",
+    "never": ["generate or redraw with AI", "stretch", "recolour"],
+    "_note": "No logo? The end card uses the name in the heading font. A headshot can go in brand/photo/ for intros."
+  },
+
+  "shape": {"radius_px": 18, "stroke_px": 2, "grain": 0.0},
+
+  "motion": {
+    "energy": "punchy",
+    "spring_damping": 120,
+    "entrance_s": 0.45,
+    "stagger_s": 0.08,
+    "exit_frames": 4,
+    "css_ease": "cubic-bezier(0.2, 0.9, 0.2, 1)",
+    "gsap_ease": "power4.out",
+    "gsap_ease_inout": "power2.inOut",
+    "transition": "cut",
+    "transition_s": 0.0,
+    "min_scene_hold_s": 1.5,
+    "fps": 30
+  },
+
+  "captions": {"enabled": true, "upper": true, "words_vertical": 3, "words_horizontal": 7, "combine_ms": 800,
+               "position": "bottom", "box": true, "text_color": "#FFFFFF", "highlight": "accent", "box_color": "rgba(15,12,26,0.85)"},
+
+  "audio": {"lufs_target": -14, "true_peak_db": -1.0, "music_under_voice_db": 12,
+            "music_mood": "lo-fi electronic, 90-110 BPM, no vocals", "sfx_style": "soft clicks and pops on UI moments only",
+            "music_library": "music_library/"},
+
+  "voice": {"provider": "voicebox", "profile": "Alex (own voice)", "engine": "qwen", "model_size": "1.7B", "seed": 1111,
+            "instruct": "energetic, friendly, clear, medium-fast", "language": "en", "lexicon": {},
+            "consent_on_file": true, "disclose_synthetic": true,
+            "_note": "Most personal brands should record their own voice; a clone of your own voice is for pickups and translations."},
+
+  "end_card": {"cta": "Follow for more", "url": "@alexrivera", "legal": "", "hold_s": 2.0},
+
+  "imagery": {"style": "Clean desk setups, real screens, natural light, purple accent props", "image_prompt_prefix": "", "avoid": ["stock-photo smiles", "fake UI text"]},
+
+  "claims": {"policy": "No income or results promises. Sponsored content is labelled #ad.", "approved": []},
+
+  "platforms": ["instagram_reels", "tiktok", "youtube_shorts", "linkedin", "youtube"]
+}

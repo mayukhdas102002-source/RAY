@@ -1,0 +1,18 @@
+{
+  "_readme": "One row per deliverable. scripts/render_matrix.py variants.json --draft first; finals only after the user approves the drafts.",
+  "defaults": {
+    "engine": "remotion",
+    "project": "remotion",
+    "fps": 30,
+    "muted": true,
+    "mux_audio": "audio/master.wav",
+    "qa": {"lufs": -14, "tp": -1}
+  },
+  "variants": [
+    {"id": "youtube-16x9", "composition": "BrandFilm-16x9", "size": "1920x1080", "props": {"showCaptions": false}},
+    {"id": "reels-9x16", "composition": "BrandFilm-9x16", "size": "1080x1920", "props": {"showCaptions": true}},
+    {"id": "feed-4x5", "composition": "BrandFilm-4x5", "size": "1080x1350", "props": {"showCaptions": true}},
+    {"id": "square-1x1", "composition": "BrandFilm-1x1", "size": "1080x1080", "props": {"showCaptions": true}},
+    {"id": "hf-16x9", "engine": "hyperframes", "project": "hyperframes", "size": "1920x1080", "quality": "delivery", "format": "mp4", "workers": 1, "_note": "delete this row if you only use Remotion"}
+  ]
+}
